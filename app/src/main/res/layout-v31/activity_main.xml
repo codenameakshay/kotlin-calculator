@@ -23,7 +23,7 @@
             android:maxLines="2"
             android:text=""
             android:textAlignment="textEnd"
-            android:textColor="@android:color/system_accent1_300"
+            android:textColor="@android:color/system_accent1_400"
             android:textSize="25sp"
             app:layout_constraintBottom_toTopOf="@id/ResultsTV"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -38,7 +38,7 @@
             android:maxLines="1"
             android:text=""
             android:textAlignment="textEnd"
-            android:textColor="@android:color/system_accent1_800"
+            android:textColor="@android:color/system_accent1_1000"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -49,13 +49,13 @@
 
         <Button
             style="@style/buttonNumber"
-            android:textColor="@android:color/system_accent1_700"
             android:onClick="allClearAction"
+            android:textColor="@android:color/system_accent1_800"
             android:text="AC" />
 
         <Button
             style="@style/buttonNumber"
-            android:textColor="@android:color/system_accent1_700"
+            android:textColor="@android:color/system_accent1_800"
             android:onClick="backSpaceAction"
             android:text="⌫" />
 
@@ -134,8 +134,8 @@
         <Button
             style="@style/buttonNumber"
             android:layout_weight="2"
-            android:background="@android:color/system_accent1_300"
-            android:textColor="@android:color/system_accent1_700"
+            android:background="@android:color/system_accent3_200"
+            android:textColor="@android:color/system_accent3_700"
             android:textSize="40sp"
             android:onClick="equalsAction"
             android:text="=" />
